@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOLi5sI6aevIzp0Wdb+6ix1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Fauzan22-dev/Pasukan_AI2030/blob/main/Hello%2C%20(Your%20Name)!\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YeoAb9GXab-l",
+        "outputId": "7d764402-535e-479d-d7ca-be936ddac52a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello Fauzan!\n"
+          ]
+        }
+      ],
+      "source": [
+        "class Person:\n",
+        "   def __init__(self, name):\n",
+        "       self.name = name\n",
+        "\n",
+        "   def say_Hello(self):\n",
+        "       print(\"Hello {}!\".format(self.name))\n",
+        "\n",
+        "Fauzan = Person('Fauzan')\n",
+        "Fauzan.say_Hello()"
+      ]
+    }
+  ]
+}
